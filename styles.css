@@ -2,6 +2,11 @@
     margin:0;
     padding:0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    background-color: #017143;
+    height: 80px;
 }
 html, body{
     height: 100%;
@@ -13,24 +18,29 @@ html, body{
     margin:0 auto;
     padding: 0%;
 }
-header{
+.header{
     height: 200px;
     padding: 20px 0;
 }
-.logo{
-    width: 50%;
 
-}
 .menu{
   padding-top: 30px;
-  width: 50%;
+  width: 100%;
   text-align: right;
 }
 .menu a {
-    color:black;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     margin-right: 15px; 
+
+}
+.menu:hover{
+    text-transform: lowercase;
+    
+}
+.menu:active{
+    color: #02351f;
 }
 section.sobre{
     height: calc(100% -200px);
@@ -42,15 +52,15 @@ section.sobre{
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 400px;
+    width: 600px;
     height: 700px;
     background-color: #017143;
     
 }
 .social-media{
     position:absolute;
-    right: 500px;
-    top: 40;
+    right: 10px;
+    top: 500px;
 
 }
 .social-media img{
@@ -61,12 +71,41 @@ section.sobre{
 }  
 .texto-sobre{
     margin-top: 100px ;
+    margin-bottom: 10px;
+    margin-left: 100px;
 } 
 .texto-sobre h1{
     font-size: 50px;
-
+    margin-bottom: 10px;
+    
+}
+.texto-sobre p {
+    margin: 30px 0;
+    color: black;
+    font-size: 20px;
+    max-width: 1200px;
+}
+h2{
+    margin: 30px 0;
+    color: black;
+    font-size: 20px;
+    max-width: 1200px;
+}
+h3,ul{
+    margin: 50px 0;
+    color: black;
+    font-size: 20px;
+    max-width: 1200px;
+    list-style: none;
+    text-align: center;
 }
 .container{
-    max-width: 200px;
-    top: 700px;
+  position: absolute;
+  max-width: 100%;
+  overflow:hidden;
+  border-radius: 100% 100% 100% 100%;
+  width: 300px;
+  top: 10px;
+  left: 50px;
+  margin-right: 50px;
 }
