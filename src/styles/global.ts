@@ -12,19 +12,22 @@ const globalStyle = createGlobalStyle `
   }
 
   body {
-    background: rgb(172,223,164);
-  background: linear-gradient(0deg, rgba(172,223,164,1) 0%, rgba(248,170,255,1) 76%);
+  background: #F8FDFF;
+  font-family: 'Poppins', sans-serif;
   }
 
   button {
-    background-color: none;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
     border: none;
     outline: none;
+    cursor: pointer;
   }
 
   a {
     text-decoration: none;
     outline: none;
+    color: unset;
   }
 `
 
