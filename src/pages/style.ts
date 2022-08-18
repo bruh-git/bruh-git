@@ -22,7 +22,6 @@ export const Container = styled.div`
 `;
 
 export const ColumnImage = styled.div`
-  text-align: right;
   img {
     margin-left: 108px;
   }

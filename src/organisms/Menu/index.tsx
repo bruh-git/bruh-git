@@ -1,8 +1,8 @@
 import * as S from './styles';
 
-const Menu = () => {
+const Menu = ({ open }) => {
   return (
-    <S.MenuList>
+    <S.MenuList open={ open }>
       <S.ItemList className='home'><a href="#">Home</a></S.ItemList>
       <S.ItemList className='about'><a href="#about">About</a></S.ItemList>
       <S.ItemList className='stack'><a href="#stack">Tech Stack</a></S.ItemList>
