@@ -1,4 +1,4 @@
-import LogoHero from '../../assets/25231.png';
+import LogoHero from '../../assets/codigo.png';
 import Burger from '../../components/Burguer';
 
 const Logo = () => {
