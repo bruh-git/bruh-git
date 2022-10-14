@@ -2,7 +2,6 @@ import Frontend from '../templates/Frontend';
 import * as S from './style';
 import HeroHeaderImage from '../assets/computer-illustration.png'
 import ButtonContact from '../atoms/ButtonContact';
-import Conteudo from './Conteudo';
 
 function Main() {
   return (
@@ -19,7 +18,6 @@ function Main() {
             </S.ColumnImage>
           </S.Container>
         </Frontend>
-        <Conteudo />
       </>
   )
 }

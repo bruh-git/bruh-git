@@ -3,12 +3,14 @@ import Burger from '../../components/Burguer';
 
 const Logo = () => {
   return (
-  <>
-    <div>
-      <img className='logo'src={LogoHero} alt='logo'/>
-    </div>
-    <Burger />
-  </>
+    <>
+      <div>
+        <a target="_blank" href="https://github.com/bruh-git" rel="noreferrer">
+          <img className='logo' src={LogoHero} alt='logo gitHub' />
+        </a>
+      </div>
+      <Burger />
+    </>
   );
 }
 

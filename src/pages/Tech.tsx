@@ -1,7 +1,5 @@
+import Frontend from '../templates/Frontend';
 import styled from 'styled-components';
-import LogoGit from '../assets/25231.png';
-import LogoInsta from '../assets/instagram.png';
-import LogoLink from '../assets/174857.png';
 
 const Main = styled.main`
   .center {
@@ -23,6 +21,7 @@ const Main = styled.main`
 `
 function Conteudo() {
   return (
+    <Frontend>
     <Main>
           <main className='center'>
             <div className='conteudo-single'>
@@ -40,30 +39,9 @@ function Conteudo() {
               <img align="center" alt="bruh-VS-CODE" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg"/>
               <img align="center" alt="bruh-boot" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"/>
             </div>
-            <div className='conteudo-single'>
-              <h3 id="projects">Projects</h3>
-              <p>
-                kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-              </p>
-            </div>
-            <div className='conteudo-single'>
-              <h3 id="contact">Contact</h3>
-              <a href="https://www.instagram.com/bruh_cardoso06/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank" alt=""/></a>
-
-              <a href="https://www.linkedin.com/in/brunac-cardoso/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" alt=""/></a>
-
-              <a href="https://twitter.com/Bruh_cardoso06?t=PfsMdXZTLCgonOAcgrXykg&s=08/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank" alt=""/></a>
-
-              <a href="mailto:brunac.cardososilva@gmail.com" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" alt=""/></a> 
-
-              <nav class="social-media">
-              <a target="_blank" href="https://github.com/bruh-git" rel="noreferrer"><img src={LogoGit} alt="Logo Github" width="40" /></a>
-                <a target="_blank" href="https://www.linkedin.com/in/brunac-cardoso/" rel="noreferrer"><img src={LogoLink}alt="Logo Linkedin" width="40" /></a>
-                <a target="_blank" href="https://www.instagram.com/bruh_cardoso06/" rel="noreferrer"><img src={LogoInsta} alt="Logo Instagram" width="40" /></a>
-              </nav>
-            </div>
           </main>
     </Main>
+    </Frontend>
   )
 }
 
