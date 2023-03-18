@@ -9,6 +9,7 @@ export const MenuList = styled.ul`
     flex-flow: column nowrap;
     background-color: #17a4d0;
     position: fixed;
+    z-index: 19;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;

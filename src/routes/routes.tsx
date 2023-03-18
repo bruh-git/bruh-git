@@ -5,6 +5,7 @@ import NotFound from '../pages/NotFound';
 import Projects from '../pages/Projects';
 import Tech from '../pages/Tech';
 
+
 function Rotas() {
   return (
     <Router>
